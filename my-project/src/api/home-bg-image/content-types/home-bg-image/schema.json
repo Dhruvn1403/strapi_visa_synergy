@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_bg_images",
+  "info": {
+    "singularName": "home-bg-image",
+    "pluralName": "home-bg-images",
+    "displayName": "home-bg-image"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
