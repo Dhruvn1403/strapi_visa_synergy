@@ -20,6 +20,16 @@
       "relation": "oneToMany",
       "target": "api::visa.visa",
       "mappedBy": "country"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }
